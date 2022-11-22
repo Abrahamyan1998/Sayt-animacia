@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.opshi {
+  background-color: #C8CDD2;
+  padding: 30px 80px;
+}
+.opshi header {
+  background-color: black;
+  padding: 15px;
+  font-style: unset;
+  position: fixed;
+  z-index: 5;
+  width: 88%;
+}
+.opshi header .top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.opshi header .mod {
+  color: white;
+  font-size: 20px;
+  margin-top: 18px;
+}
+.opshi header .header1 {
+  display: flex;
+  color: white;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+.opshi header .header1 button {
+  background-color: #ff0000;
+}
+.opshi header .header1 .ser {
+  background-color: #CF6FC1;
+}
+.opshi header .header1 .fac {
+  background-color: #6DB4C4;
+}
+.opshi header .header1 .por {
+  background-color: #4876C0;
+}
+.opshi header .header1 .cli {
+  background-color: #C55050;
+}
+.opshi header .header1 .con {
+  background-color: #FFFFFF;
+  color: black;
+}
+.opshi header .header1 h2 {
+  padding: 15px 35px;
+}
+.opshi .modest {
+  background-color: #FFFFFF;
+  padding: 100px;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 500px;
+}
+.opshi .modest .imig_text {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.opshi .modest .imig_text .text {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+.opshi .modest .imig_text .text h1 {
+  color: #404040;
+  padding: 10px;
+}
+.opshi .modest .imig_text .text p {
+  color: #898989;
+  line-height: 25px;
+}
+.opshi .modest .imig_text .text button {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  text-align: center;
+  color: #BCC1C4;
+  border: 1px solid #BCC1C4;
+  background-color: white;
+  margin: 0 auto;
+}
+.opshi .modest .imig_text .text button a {
+  color: #BCC1C4;
+}
+.opshi .services {
+  background-color: #FFFFFF;
+  padding: 20px;
+}
+.opshi .services .card3 {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 70px;
+  flex-wrap: wrap;
+}
+.opshi .services .card3 .img_qard {
+  border: 1px solid #949494;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  position: relative;
+}
+.opshi .services .card3 .img_qard h2 {
+  font-size: 15px;
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  right: 70px;
+}
+.opshi .services .card3 .img_qard a {
+  color: #003d99;
+}
+.opshi .services .card3 .img_qard P {
+  padding: 30px;
+  color: #494949;
+}
+.opshi .facts {
+  background-color: #62ACBC;
+}
+.opshi .facts .facts_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.opshi .facts .facts_img img {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
+}
+.opshi .facts .facts_img p {
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  top: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.opshi .facts .facts4 {
+  display: flex;
+  padding: 100px;
+  justify-content: space-around;
+  text-align: center;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+}
+.opshi .facts .facts4 .facts_number h3 {
+  font-size: 25px;
+  padding: 15px;
+}
+.opshi .facts .facts4 .facts_number .div {
+  border: 1px solid;
+  width: 80px;
+  margin: 0 auto;
+}
+.opshi .facts .facts4 .facts_number h2 {
+  font-size: 18px;
+  padding: 15px;
+}
+.opshi .portfolio {
+  background-color: #3B609B;
+}
+.opshi .portfolio .imige_text3 {
+  color: #FFFFFF;
+  position: relative;
+}
+.opshi .portfolio .imige_text3 img {
+  position: absolute;
+}
+.opshi .portfolio .imige_text3 p {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.opshi .portfolio .foto {
+  justify-content: center;
+  padding: 80px;
+}
+@media only screen and (max-width: 500px) {
+  .opshi .portfolio .foto img {
+    width: 200px;
+    height: 200px;
+  }
+}
+.opshi .portfolio .foto .foto1 {
+  background-color: #FFFFFF;
+  flex-wrap: wrap;
+}
+.opshi .portfolio .foto .foto1 img {
+  border: 1px solid #ffffff;
+}
+.opshi .portfolio .foto .foto2 {
+  background-color: #FFFFFF;
+  flex-wrap: wrap;
+}
+.opshi .portfolio .foto img {
+  border: 1px solid #ffffff;
+}
+.opshi .clients {
+  background-color: #CB5656;
+  color: #FFFFFF;
+}
+.opshi .clients .clients_img {
+  position: relative;
+}
+.opshi .clients .clients_img img {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.opshi .clients .clients_img p {
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  top: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+.opshi .clients .iph2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  font-size: 16px;
+  padding: 100px;
+}
+.opshi .clients .iph2 i {
+  border: 3px solid;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 auto;
+}
+.opshi .contact {
+  background-color: #FFFFFF;
+}
+.opshi .contact .contact_imig img {
+  position: absolute;
+}
+.opshi .contact .contact_imig p {
+  position: absolute;
+  z-index: 1;
+  margin-top: 18px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.opshi .contact .Name {
+  padding: 100px 50px;
+  color: silver;
+  line-height: 30px;
+}
+.opshi .contact .Name h2 {
+  font-size: 14px;
+  color: #3B609B;
+}
+.opshi .contact .Name p {
+  width: 200px;
+  height: 50px;
+}
+.opshi .contact .Name p button {
+  border: 2px solid black;
+  background-color: #FFFFFF;
+  padding: 15px;
+}
+.opshi .contact .Name p button a {
+  color: black;
+  list-style: none;
+}
+.opshi .contact .div3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.opshi .contact .div3 .email_a {
+  margin-left: 150px;
+  color: #494949;
+  flex-wrap: wrap;
+}
+.opshi .contact .div3 .p {
+  font-size: 14px;
+  margin-left: 150px;
+  color: #494949;
+  flex-wrap: wrap;
+}
+.opshi footer {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+.opshi footer .footer_text {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.opshi footer .footer_text .footer_logo {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.opshi footer .footer_text .footer_logo i {
+  display: flex;
+  gap: 5px;
+}/*# sourceMappingURL=index.css.map */
