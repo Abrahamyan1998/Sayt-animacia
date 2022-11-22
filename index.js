@@ -45,6 +45,25 @@ MODEST.onclick = function () {
     }
 
 }
+MODEST.onmouseover = function () {
+    console.log(onmouseover);
+    MODEST.style.color="yellow";
+}
+
+MODEST.onmouseleave = function () {
+    console.log(onmouseleave);
+    MODEST.style.color="red";
+}
+
+SERVICES.addEventListener("mouseover", function () {
+    SERVICES.style.color="red";
+
+} )
+
+SERVICES.addEventListener("mouseleave", function () {
+    SERVICES.style.color="black";
+
+} )
 
 SERVICES.onclick = function () {
     {
@@ -181,7 +200,7 @@ CONTACT.onclick = function () {
 
 }
 
-FOOTER.onclick = function () {
+FOOTER.ondblclick = function () {
     {
         modestOpshin.style.display = "block"
     }
