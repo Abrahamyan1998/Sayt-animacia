@@ -15,7 +15,27 @@ let portfolioOpshin = document.querySelector(".portfolio");
 let clientsOpshin = document.querySelector(".clients");
 let contactOpshin = document.querySelector(".contact");
 let footerOpshin = modestOpshin;
+let btn = document.querySelectorAll(".btn");
 
+
+for (let i = 0; i < btn.length; i++) {
+    btn[i].addEventListener("dblclick",()=>{
+        btn[i].style.width = 10+"px";
+        btn[i].style.heigth = 10+"px";
+        btn[i].classList.add("sircle");
+        btn[i].innerText="";
+        btn[i].style.background = "red";
+    }) 
+}
+    
+
+// MODEST.addEventListener("dblclick",()=>{
+//         MODEST.style.width = 10+"px";
+//         MODEST.style.heigth = 10+"px";
+//         MODEST.classList.add("sircle");
+//         MODEST.innerText="";
+//         MODEST.style.background = "blue";
+//     }) 
 
 
 
@@ -62,6 +82,46 @@ SERVICES.addEventListener("mouseover", function () {
 
 SERVICES.addEventListener("mouseleave", function () {
     SERVICES.style.color="black";
+
+} )
+
+FACTS.addEventListener("mouseover", function () {
+    FACTS.style.color="green";
+
+} )
+
+FACTS.addEventListener("mouseleave", function () {
+    FACTS.style.color="white";
+
+} )
+
+PORTFOLIO.addEventListener("mouseover", function () {
+    PORTFOLIO.style.color="yellow";
+
+} )
+
+PORTFOLIO.addEventListener("mouseleave", function () {
+    PORTFOLIO.style.color="black";
+
+} )
+
+CLIENTS.addEventListener("mouseover", function () {
+    CLIENTS.style.color="fuchsia";
+
+} )
+
+CLIENTS.addEventListener("mouseleave", function () {
+    CLIENTS.style.color="white";
+
+} )
+
+CONTACT.addEventListener("mouseover", function () {
+    CONTACT.style.color="blue";
+
+} )
+
+CONTACT.addEventListener("mouseleave", function () {
+    CONTACT.style.color="black";
 
 } )
 

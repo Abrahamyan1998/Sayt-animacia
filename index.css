@@ -320,4 +320,10 @@
 .opshi footer .footer_text .footer_logo i {
   display: flex;
   gap: 5px;
+}
+
+.sircle {
+  border-radius: 50%;
+  rotate: 270deg;
+  transition: 5s;
 }/*# sourceMappingURL=index.css.map */
